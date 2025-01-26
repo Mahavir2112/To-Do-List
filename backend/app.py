@@ -4,7 +4,7 @@ from datetime import datetime
 from flask_cors import CORS
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI']='postgresql://postgres:Mahavir%4021@localhost/Flask Tutorial'
+app.config['SQLALCHEMY_DATABASE_URI']='postgresql://postgres:password@localhost/Flask Tutorial'
 db = SQLAlchemy(app)
 CORS(app)
 
