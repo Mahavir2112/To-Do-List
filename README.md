@@ -1,41 +1,17 @@
-To-Do List App
-A simple To-Do List app built with React (frontend), Flask (backend), and PostgreSQL (database). Allows users to create, edit, and delete tasks.
+# To-Do List App
 
-Technologies
-Frontend: React
-Backend: Flask
-Database: PostgreSQL
-Setup
-1. Clone the repo:
-bash
-Copy
-Edit
-git clone https://github.com/Mahavir2112/To-Do-List.git
-cd To-Do-List
-2. Install Backend Dependencies:
-bash
-Copy
-Edit
-cd backend
-python -m venv venv
-source venv/bin/activate  # For Linux/Mac
-venv\Scripts\activate     # For Windows
-pip install -r requirements.txt
-3. Install Frontend Dependencies:
-bash
-Copy
-Edit
-cd frontend
-npm install
-4. Set up PostgreSQL Database:
-Create a new database To-Do-List in PostgreSQL and update the URI in backend/app.py.
+A simple To-Do List application built with **React** for the frontend, **Flask** for the backend, and **PostgreSQL** as the database. This app allows users to add, edit, and delete tasks.
 
-5. Run the Apps:
-Backend: python app.py (runs on http://localhost:8080)
-Frontend: npm start (runs on http://localhost:3000)
-Usage
-The app allows you to:
+## Features
 
-Add, edit, and delete tasks
-View tasks with their descriptions
-This version is more compact while retaining the essential details.
+- **Add new tasks**: Submit a description to create a new task.
+- **Edit existing tasks**: Update task descriptions.
+- **Delete tasks**: Remove tasks from the list.
+- **Persistent data**: Task data is saved in a PostgreSQL database.
+
+## Technologies
+
+- **Frontend**: React.js
+- **Backend**: Flask (Python)
+- **Database**: PostgreSQL
+- **API Communication**: Axios (for HTTP requests)
